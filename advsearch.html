@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <style>
+            img {
+                height: 250px;
+            }
+            #txtbox {
+                border-radius: 50px;
+                width: 500px;
+                height:50px
+            }
+            td {
+                padding:10px;
+            }
+            td:hover {
+                background-color: antiquewhite;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="https://www.google.ca/advanced_search">
+            <h3>Find pages with...</h3> 
+        </p>
+            <table>
+                <tr>
+                    <td>all these words: </td>
+                    <td><input class="jfk-textinput" name="as_q" type="text"></td>
+                </tr>
+                <tr><td>this exact word or phrase: </td>
+                    <td><input type="text" class="jfk-textinput" name="as_epq"></td>
+                </tr>
+                <tr><td>any of these words: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr><td>this exact word or phrase: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr><td>none of these words: </td>
+                    <td><input type="text"></td>
+                </tr>
+                
+            </table>
+        </p>
+            <input type="submit" value="Google Advanced Search">
+            
+            </form>
+    </body>
+</html>
